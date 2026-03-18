@@ -1,0 +1,13 @@
+﻿# Benchmark Summary
+
+## Top Configurations
+
+| model_name | chunking_strategy | chunk_size | overlap | top_k | num_chunks | num_queries | hit_rate | recall_at_k | mrr |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| sentence-transformers/all-MiniLM-L6-v2 | sentence | 20 | 5 | 3 | 5 | 5 | 1.0 | 1.0 | 1.0 |
+| sentence-transformers/all-MiniLM-L6-v2 | fixed | 20 | 5 | 3 | 8 | 5 | 1.0 | 1.0 | 0.9 |
+| sentence-transformers/paraphrase-MiniLM-L3-v2 | fixed | 30 | 8 | 3 | 5 | 5 | 0.8 | 0.8 | 0.7 |
+
+## Notes
+
+Higher MRR indicates the correct document was retrieved closer to rank 1.

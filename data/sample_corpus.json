@@ -1,0 +1,27 @@
+﻿[
+  {
+    "doc_id": "doc_python_api",
+    "title": "FastAPI Basics",
+    "text": "FastAPI is a modern Python web framework used to build APIs quickly. It supports automatic documentation, data validation, and async endpoints. Teams commonly use it for internal ML services and model-serving APIs."
+  },
+  {
+    "doc_id": "doc_vector_search",
+    "title": "FAISS Overview",
+    "text": "FAISS is a library for similarity search over dense vectors. It is commonly used in semantic search, retrieval pipelines, and retrieval augmented generation systems where low-latency nearest neighbor lookup is important."
+  },
+  {
+    "doc_id": "doc_embeddings",
+    "title": "Text Embeddings",
+    "text": "Text embeddings convert sentences into numerical vectors. Those vectors capture semantic meaning and make it possible to compare similarity between queries and documents in search applications."
+  },
+  {
+    "doc_id": "doc_chunking",
+    "title": "Chunking Strategies",
+    "text": "Chunking splits large documents into smaller pieces before embedding. Well-designed chunk boundaries can improve retrieval accuracy, reduce noise, and make downstream generation more relevant."
+  },
+  {
+    "doc_id": "doc_monitoring",
+    "title": "ML Observability",
+    "text": "Observability in ML systems includes latency measurement, request tracing, and usage monitoring. These signals help teams detect regressions, control cost, and understand production behavior."
+  }
+]
